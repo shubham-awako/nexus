@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 // ╔══════════════════════════════════════════════════════════════╗
-// ║                150+ INDICATOR ENGINE                        ║
+// ║         NEXUS MARKETS INTELLIGENCE INDICATOR ENGINE          ║
 // ╚══════════════════════════════════════════════════════════════╝
 
 const safe = (v, fallback = 0) => (isFinite(v) && !isNaN(v) ? v : fallback);
